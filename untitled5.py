@@ -6,9 +6,9 @@ import base64
 baidu_server = "https://openapi.baidu.com/oauth/2.0/token?"
 grant_type = "client_credentials"
 #API Key
-client_id = "2ek0ojqkKUN2WGU3jjGkvCbd"
+client_id = "2ek0ojqkKUN2WGU3jjGkvCbd"   #使用自己的id
 #Secret Key
-client_secret = "MtTnyGYWgC6RR0YRrtGK4so72UwYbfT4" 
+client_secret = "MtTnyGYWgC6RR0YRrtGK4so72UwYbfT4"   #使用自己的secret 下同
 
 #拼url
 url ="%sgrant_type=%s&client_id=%s&client_secret=%s"%(baidu_server,grant_type,client_id,client_secret)
